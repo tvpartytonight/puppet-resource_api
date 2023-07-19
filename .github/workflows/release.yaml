@@ -19,7 +19,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DEFAULT_BUMP: patch
-          TAG_CONTEXT: branch
+          # TAG_CONTEXT: branch
           WITH_V: false
           # Uncomment this if the tag and version file become out-of-sync and
           # you need to tag at a specific version.
